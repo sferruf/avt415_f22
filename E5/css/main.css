@@ -1,9 +1,54 @@
-}
 @-ms-viewport{
   width: device-width;
 }
 
+@media screen and (max-width: 900px){
+  body{
+    background-color: black;
+    color: white;
+    }
+}
+
+@media screen and (max-width: 1920px){
+    body{
+      background-color: white;
+      color: black;
+        }
+}
 body{
-  background-color: white;
-  font-family: 'Minion Pro', serif; 
+
+  font-family: 'Minion Pro', serif;
+  font-size: 20px;
+  margin: 25px;
+  padding: 30px;
+}
+h1{
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 700;
+  font-size: 15vw;
+  margin-bottom: 15px;
+}
+h2{
+  font-size: 5vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 50px 15px 25px 0px;
+}
+h3{
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+h4{
+  color: grey;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin-top: 0px;
+}
+p{
+  line-height: 30px;
 }
