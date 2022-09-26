@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 @-ms-viewport{
   width: device-width;
 }
@@ -9,11 +13,7 @@
     }
 }
 
-@media screen and (max-width: 1920px){
-    body{
-      background-color: white;
-      color: black;
-        }
+
 }
 body{
 
