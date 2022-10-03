@@ -10,6 +10,7 @@
   body{
     background-color: black;
     color: white;
+    margin: 25px;
     }
   h2{
     color:#3387C4;
@@ -22,7 +23,7 @@ body{
 
   font-family: 'Minion Pro', serif;
   font-size: 20px;
-  margin: 25px;
+  margin: 35px;
   padding: 30px;
 }
 h1{
